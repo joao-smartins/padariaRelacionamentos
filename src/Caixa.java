@@ -2,16 +2,17 @@ import java.util.ArrayList;
 
 public class Caixa {
 
+    private ArayList<Comanda> comandas;
 
     public Caixa(){
 
-        List<Comanda> comandas = new List<Comanda>();
+        this.comandas = new ArayList<Comanda>();
 
     }
 
     public Comanda nova (String cliente){
 
-
+        this.comandas.add()
 
     }
 
