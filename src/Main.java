@@ -15,8 +15,8 @@ public class Main{
         Caixa caixa=new Caixa();
         // Criando e gerenciando uma Comanda
         Comanda comanda1=caixa.nova("Flavio");
-        comanda1.addItem(estoque[0],2);
-        comanda1.addItem(estoque[2],1);
+        comanda1.addProduto(estoque[0],2);
+        comanda1.addProduto(estoque[2],1);
 
         // Pagando a comanda
         Comanda aux=caixa.getComanda(100);

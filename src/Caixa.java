@@ -2,23 +2,23 @@ import java.util.ArrayList;
 
 public class Caixa {
 
-    private ArayList<Comanda> comandas;
+    private ArrayList<Comanda> comandas;
 
     public Caixa(){
 
-        this.comandas = new ArayList<Comanda>();
+        this.comandas = new ArrayList<Comanda>();
 
     }
 
     public Comanda nova (String cliente){
 
-        this.comandas.add()
+        this.comandas.add(cliente);
 
     }
 
     public Comanda getComanda (int id){
 
-
+        return this.comandas.get(id - 1);
     }
 
 

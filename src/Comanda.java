@@ -18,7 +18,7 @@ public class Comanda {
     }
 
     public double totalizar(){
-
+        double total = 0
 
     }
 
