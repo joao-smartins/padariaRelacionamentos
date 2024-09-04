@@ -21,7 +21,7 @@ public class Main{
         // Pagando a comanda
         Comanda aux=caixa.getComanda(100);
         double total = aux.totalizar();
-        System.out.println("Você deve R$"+total);
+        System.out.println("No total você deve R$"+total);
         System.out.println(caixa.pagarComanda(100));
 
 

@@ -13,12 +13,14 @@ public class Produto {
         this.nome = nome;
         this.estoque = estoque;
         this.tipos = tipos;
-
     }
 
     public Produto(){
 
 
     }
+
+
+
 
 }

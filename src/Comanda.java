@@ -1,15 +1,19 @@
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
 public class Comanda {
 
-    private int id;
-    private Date data;
+    private static int id = 0;
+    private LocalDate data;
     private String cliente;
+    private ArrayList<>
 
-
-
+    public Comanda(String cliente) {
+        this.data = LocalDate.now();
+        id ++;
+    }
 
     public void addProduto(Produto produto, int quant){
 
@@ -18,32 +22,9 @@ public class Comanda {
     }
 
     public double totalizar(){
-        double total = 0
+        double total = 0;
 
     }
 
 
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public Date getData() {
-        return data;
-    }
-
-    public void setData(Date data) {
-        this.data = data;
-    }
-
-    public String getCliente() {
-        return cliente;
-    }
-
-    public void setCliente(String cliente) {
-        this.cliente = cliente;
-    }
 }
